@@ -29,8 +29,8 @@
       <div class = "col-md-12 twelve columns">
         <div class="title">
           {{#:title}}<h1 class="title">{{:title}}</h1>{{/:title}}
-          {{#:author}}<h5>{{{:author}}}</h5>{{/:author}}
-          {{#:date}}<h5>{{{:date}}}</h5>{{/:date}}
+          {{#:author}}<h4><em>{{{:author}}}</em></h4>{{/:author}}
+          {{#:date}}<h4><em>{{{:date}}}</em></h4>{{/:date}}
         </div>
 
         {{{ :body }}}
